@@ -90,7 +90,7 @@ export const Home = () => {
                             cursor: 'pointer'
                           }}
                           onClick={() => {
-                            onDelete(row.id);
+                            onDelete(row.id); console.log(row.id)
                           }}
                         />
                       </div>
